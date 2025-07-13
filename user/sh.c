@@ -173,7 +173,7 @@ runcmd(struct cmd *cmd)
 int
 getcmd(char *buf, int nbuf)
 {
-  write(2, " Maryam Masoumi & Sanaz Aparooyz $", 37);
+  write(2, " Maryam Masoumi $", 30);
   memset(buf, 0, nbuf);
   gets(buf, nbuf);
   if(buf[0] == 0) // EOF
