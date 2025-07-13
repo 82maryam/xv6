@@ -16,7 +16,7 @@ main(){
     printf("\n");
     printf("xv6 kernel is booting\n");
     printf("\n");
-    log_message(0, "Welcome to AUT MCS Principles of Operating Systems Course. This message is from a custom logger implemented by 40113431 and 40111002"); 
+    log_message(0, "Welcome to AUT MCS Principles of Operating Systems Course. This message is from a custom logger implemented by 40113431 "); 
     log_message(1, "This is a test warning message for the custom logger"); 
     log_message(2, "This is a test error message for the custom logger"); 
     kinit();         // physical page allocator
